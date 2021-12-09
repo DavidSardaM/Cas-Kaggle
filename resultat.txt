@@ -319,3 +319,13 @@ Optimized ExtraTrees (10.000000):  0.947508  (0.003512)
 Optimized ExtraTrees (20.000000):  0.948793  (0.007714)
 Optimized ExtraTrees (40.000000):  0.947681  (0.012578)
 Optimized ExtraTrees (60.000000):  0.947163  (0.014392)
+
+
+Optimized Gradient Boosting (2.000000):  0.953245  (0.002398)
+Optimized Gradient Boosting (3.000000):  0.951961  (0.001883)
+Optimized Gradient Boosting (4.000000):  0.955386  (0.003615)
+Optimized Gradient Boosting (6.000000):  0.956242  (0.004456)
+Optimized Gradient Boosting (10.000000):  0.956327  (0.007168)
+Optimized Gradient Boosting (20.000000):  0.957357  (0.009920)
+Optimized Gradient Boosting (40.000000):  0.957356  (0.011434)
+Optimized Gradient Boosting (60.000000):  0.957013  (0.014296)

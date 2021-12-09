@@ -3,7 +3,7 @@ from sklearn.datasets import make_regression
 
 import pandas as pd
 #matplotlib notebook
-from matplotlib import pyplot as plt
+
 import scipy.stats
 from sklearn import model_selection
 from sklearn.preprocessing import MinMaxScaler
@@ -57,7 +57,20 @@ print("Dimensionalitat de la BBDD:", dataset.shape)
 print("Dimensionalitat de les entrades X", x.shape)
 print("Dimensionalitat de l'atribut Y", y.shape)
 
+def print_data_types(dataset):
+    print("------------------------------------")
+    print("Tipus de dades")
+    print(dataset.dtypes)
+    print("------------------------------------")
 
+print_data_types(dataset)
+
+def nan(dataset):
+    print("Eliminació 'NaN' del DataFrame")
+    print(dataset.isnull().sum())
+    print("------------------------------------")
+
+nan(dataset)
 
 def balance(dataset):
     ax = sns.countplot(x="Forma", data=dataset, palette={0: 'thistle', 1: "lightskyblue",  2: "lightcoral", 3: "lightgreen"})
@@ -142,12 +155,9 @@ models = []
                       # max_features='log2', n_estimators=270, n_jobs=-1, random_state=38)))
 #models.append (('Optimized Hist Gradient Boosting',HistGradientBoostingClassifier(learning_rate=0.3, max_depth=430, max_iter=357,
                       #         max_leaf_nodes=26, random_state=69)))
-models.append (('Optimized ExtraTrees',ExtraTreesClassifier(max_depth=500, n_estimators=397, n_jobs=-1,
-                     random_state=26)))
-
-
-
-
+#models.append (('Optimized ExtraTrees',ExtraTreesClassifier(max_depth=500, n_estimators=397, n_jobs=-1,
+                     #random_state=26)))
+#models.append (('Optimized Gradient Boosting',GradientBoostingClassifier(criterion='squared_error', n_estimators=200, loss='deviance' , random_state=128) ))
 
 
 
@@ -178,7 +188,8 @@ for index, (name, model) in enumerate(models):
 #sns.pairplot(dataset, hue="Forma", palette={0: 'thistle', 1: "lightskyblue",  2: "lightcoral", 3: "lightgreen"})
 #plt.savefig("../figures/histograma_per_classes.png")
 #plt.show()
-import numpy as np
+
+"""
 param = {
     'bootstrap': [True, False],
     'max_depth': np.arange(4,1000),
@@ -190,7 +201,7 @@ param = {
     'random_state': np.arange(0,1000)
 
 }
-"""
+
 rf = RandomForestClassifier(n_jobs=-1)# Instantiate the grid search model
 random_search_random = RandomizedSearchCV(estimator = rf, param_distributions = param, cv = 3, n_jobs = -1, n_iter=500)
 random_search_random = random_search_random.fit(x, y)
@@ -220,12 +231,12 @@ random_search_hist = random_search_hist.fit(x, y)
 best_estimator = random_search_hist.best_estimator_
 print(best_estimator)
 
-"""
+
 param = {
     'max_depth': np.arange(2,1000),
     'max_leaf_nodes': np.arange(2,500),
     'n_estimators': np.arange(50,500),
-    'loss': ['deviance', 'exponential'],
+    'loss': ['deviance'],
     'random_state': np.arange(0,1000),
     'criterion': ['friedman_mse', 'squared_error',  'absolute_error'],
     'min_samples_split': [2, 8, 10, 12],
@@ -240,4 +251,4 @@ random_search_gradient = random_search_gradient.fit(x, y)
 best_estimator2 = random_search_gradient.best_estimator_
 print(best_estimator2)
 
-
+"""
