@@ -47,35 +47,67 @@ def load_dataset(path):
 
 dataset = load_dataset('../data/dades.csv')
 
-data = dataset.values
 
-print(dataset.head())
 
-x = data[:, :64]
-y = data[:, 64]
-print("Dimensionalitat de la BBDD:", dataset.shape)
-print("Dimensionalitat de les entrades X", x.shape)
-print("Dimensionalitat de l'atribut Y", y.shape)
+def analisi_dades(dataset):
 
-def print_data_types(dataset):
-    print("------------------------------------")
-    print("Tipus de dades")
+
+    print("Primer observem les dades y estadístiques sobre les dades")
+    print(dataset.head())
+    print(dataset.describe())
+    data = dataset.values
+    x = data[:, :64]
+    y = data[:, 64]
+    print("Seleccionem la variable objectiu i mirarem les dimensionalitats de les nostres dades")
+
+    print("Dimensionalitat de la BBDD:", dataset.shape)
+    print("Dimensionalitat de les entrades X", x.shape)
+    print("Dimensionalitat de l'atribut Y", y.shape)
+
+
+    print("Posteriorment mirarem el tipus de dades que tenim")
     print(dataset.dtypes)
-    print("------------------------------------")
 
-print_data_types(dataset)
-
-def nan(dataset):
-    print("Eliminació 'NaN' del DataFrame")
+    print("Aixó com també observarem el nombre de dades nules que tenim")
     print(dataset.isnull().sum())
-    print("------------------------------------")
 
-nan(dataset)
+    return data,x,y
 
-def balance(dataset):
-    ax = sns.countplot(x="Forma", data=dataset, palette={0: 'thistle', 1: "lightskyblue",  2: "lightcoral", 3: "lightgreen"})
+data,x,y=analisi_dades(dataset)
+
+
+
+def distribucions(dataset):
+    print("Un cop començades a veure les dades passarem a observar les distribucions i relacions que considerem interessants")
+    print("Primer observarem la matriu de correlació dels atributs")
+    plt.figure()
+    fig, ax = plt.subplots(figsize=(25, 10))  # figsize controla l'amplada i alçada de les cel·les de la matriu
+    plt.title("Matriu de correlació de Pearson")
+    sns.heatmap(dataset.corr(), annot=True, ax=ax, linewidths=.0, annot_kws={"fontsize": 350 / np.sqrt(len(dataset))},
+                square=True)
+    plt.savefig("../figures/pearson_correlation_matrix_.png")
+    plt.show()
+    print("Posteriorment passarem a veure els histogrames de les variables")
+    print("Primer els histogrames de tots els atributs")
+    #plt.figure()
+    #sns.pairplot(dataset)
+    #plt.savefig("../figures/histograma.png")
+    #plt.show()
+
+
+
+    print("Després els histogrames dels atributs segons la classe objectiu")
+
+    #plt.figure()
+    #sns.pairplot(dataset, hue="Forma", palette={0: 'thistle', 1: "lightskyblue",  2: "lightcoral", 3: "lightgreen"})
+    #plt.savefig("../figures/histograma_per_classes.png")
+    plt.show()
+
+    print("Finalment veurem la distribució de la variables objectiu i si les classes es troben balancejades, si és el cas la precisió de les dades serà molt més reprsentativa de les dades")
+    ax = sns.countplot(x="Forma", data=dataset,
+                       palette={0: 'thistle', 1: "lightskyblue", 2: "lightcoral", 3: "lightgreen"})
     plt.suptitle("Target attribute distribution (Forma)")
-    label = ["rock",  "scissors","paper", "ok"]
+    label = ["rock", "scissors", "paper", "ok"]
     ax.bar_label(container=ax.containers[0], labels=label)
     plt.xlabel('Forma')
     plt.ylabel('Number of samples')
@@ -83,24 +115,20 @@ def balance(dataset):
     plt.show()
 
     porc_pot = (len(dataset[dataset.Forma == 0]) / len(dataset.Forma)) * 100
-    print('The samples that are rock is: {:.2f}%'.format(porc_pot))
+    print('El percentatge de gestos de les mans que son pedres representa un {:.2f}% del total de dades'.format(porc_pot))
     porc_pot = (len(dataset[dataset.Forma == 1]) / len(dataset.Forma)) * 100
-    print('The samples that are scissors is: {:.2f}%'.format(porc_pot))
+    print('El percentatge de gestos de les mans que son tisores representa un {:.2f}% del total de dades'.format(porc_pot))
     porc_pot = (len(dataset[dataset.Forma == 2]) / len(dataset.Forma)) * 100
-    print('The samples that are paper is: {:.2f}%'.format(porc_pot))
+    print('El percentatge de gestos de les mans que son papers representa un {:.2f}% del total de dades'.format(porc_pot))
     porc_pot = (len(dataset[dataset.Forma == 3]) / len(dataset.Forma)) * 100
-    print('The samples that are rock is: {:.2f}%'.format(porc_pot))
-#balance(dataset)
+    print('El percentatge de gestos de les mans que son ok representa un {:.2f}% del total de dades'.format(porc_pot))
 
-def pearson_correlation(dataset):
-    plt.figure()
-    fig, ax = plt.subplots(figsize=(25, 10))  # figsize controla l'amplada i alçada de les cel·les de la matriu
-    plt.title("Matriu de correlació de Pearson")
-    sns.heatmap(dataset.corr(), annot=True, ax=ax, linewidths=.0, annot_kws={"fontsize":350 / np.sqrt(len(dataset))},square=True)
-    plt.savefig("../figures/pearson_correlation_matrix_.png")
-    plt.show()
 
-#pearson_correlation(dataset)
+distribucions(dataset)
+
+
+#Posteriorment veurem possibles transformacions de les dades que poden ajudar a millorar el model de classificació com son: el pca y el polinomial Features
+
 #pca
 def Pca(x):
     pca = PCA(n_components=3)
@@ -112,18 +140,20 @@ def Pca(x):
 #polinomi
 
 def polinomi(x):
-    trans = PolynomialFeatures(degree=2)
+    trans = PolynomialFeatures(degree=x)
     data = trans.fit_transform(x)
     return data
 
-#x_poli=polinomi(x)
+#x_poli=polinomi(2)
+
+#Per treballar amb les dades és adequat estandaritzar-los, i en el nostre cas com les variables tenen distribucions Gaussianes ens donarà millors resultats.
 def standardize_mean(dataset):
     return MinMaxScaler().fit_transform(dataset)
     #return (dataset - dataset.mean(0)) / dataset.std(0)
 
 x=standardize_mean(x)
 
-
+#A continuació provarem una sèrie de models per veure la millor opció
 models = []
 #models.append(('SVM rbf gamma 0.9', SVC(C=1.0, kernel='rbf', gamma=0.9, probability=True)))
 #models.append(('SVM rbf gamma 0.7', SVC(C=1.0, kernel='rbf', gamma=0.7, probability=True)))
@@ -178,16 +208,6 @@ for index, (name, model) in enumerate(models):
 
 
 #pairplot
-#plt.figure()
-#sns.pairplot(dataset)
-#plt.savefig("../figures/histograma.png")
-#plt.show()
-
-
-#plt.figure()
-#sns.pairplot(dataset, hue="Forma", palette={0: 'thistle', 1: "lightskyblue",  2: "lightcoral", 3: "lightgreen"})
-#plt.savefig("../figures/histograma_per_classes.png")
-#plt.show()
 
 """
 param = {
