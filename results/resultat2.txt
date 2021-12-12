@@ -1,0 +1,269 @@
+
+
+
+
+
+SVM rbf gamma 0.9 (2.000000):  accuracy: 0.785751 (0.003425),  f1: 0.785072, recall: 0.786332, roc: 0.969691 tiempo 7.297380
+SVM rbf gamma 0.9 (3.000000):  accuracy: 0.803305 (0.002613),  f1: 0.802516, recall: 0.803783, roc: 0.973482 tiempo 12.528054
+SVM rbf gamma 0.9 (4.000000):  accuracy: 0.810156 (0.002659),  f1: 0.809614, recall: 0.810652, roc: 0.975638 tiempo 15.491412
+SVM rbf gamma 0.9 (5.000000):  accuracy: 0.815208 (0.003589),  f1: 0.814650, recall: 0.815857, roc: 0.976368 tiempo 17.791089
+SVM rbf gamma 0.9 (6.000000):  accuracy: 0.818036 (0.014650),  f1: 0.817371, recall: 0.818415, roc: 0.977119 tiempo 17.858670
+SVM rbf gamma 0.9 (10.000000):  accuracy: 0.819747 (0.009904),  f1: 0.819047, recall: 0.820289, roc: 0.978055 tiempo 20.603432
+SVM rbf gamma 0.7 (2.000000):  accuracy: 0.744819 (0.011132),  f1: 0.743648, recall: 0.745532, roc: 0.960089 tiempo 7.977747
+SVM rbf gamma 0.7 (3.000000):  accuracy: 0.762031 (0.002494),  f1: 0.761253, recall: 0.762632, roc: 0.966068 tiempo 13.264741
+SVM rbf gamma 0.7 (4.000000):  accuracy: 0.772222 (0.012092),  f1: 0.771423, recall: 0.772881, roc: 0.968764 tiempo 16.302341
+SVM rbf gamma 0.7 (5.000000):  accuracy: 0.777702 (0.003810),  f1: 0.776868, recall: 0.778171, roc: 0.969842 tiempo 17.737779
+SVM rbf gamma 0.7 (6.000000):  accuracy: 0.780528 (0.005078),  f1: 0.779841, recall: 0.781360, roc: 0.970943 tiempo 19.618019
+SVM rbf gamma 0.7 (10.000000):  accuracy: 0.783354 (0.010056),  f1: 0.782284, recall: 0.783918, roc: 0.971858 tiempo 22.580357
+SVM sigmoide gamma 0.9 (2.000000):  accuracy: 0.247046 (0.003168),  f1: 0.099050, recall: 0.250000, roc: 0.548646 tiempo 15.322002
+SVM sigmoide gamma 0.9 (3.000000):  accuracy: 0.244905 (0.001577),  f1: 0.098362, recall: 0.250000, roc: 0.571562 tiempo 25.882831
+SVM sigmoide gamma 0.9 (4.000000):  accuracy: 0.246104 (0.001407),  f1: 0.098749, recall: 0.250000, roc: 0.566684 tiempo 32.422789
+SVM sigmoide gamma 0.9 (5.000000):  accuracy: 0.242507 (0.006992),  f1: 0.097575, recall: 0.250000, roc: 0.552358 tiempo 37.479952
+SVM sigmoide gamma 0.9 (6.000000):  accuracy: 0.245589 (0.007165),  f1: 0.098570, recall: 0.250000, roc: 0.553467 tiempo 41.518445
+SVM sigmoide gamma 0.9 (10.000000):  accuracy: 0.244990 (0.009872),  f1: 0.098365, recall: 0.250000, roc: 0.576449 tiempo 48.316956
+SVM sigmoide gamma 0.7 (2.000000):  accuracy: 0.246189 (0.001456),  f1: 0.098776, recall: 0.250000, roc: 0.568716 tiempo 14.902968
+SVM sigmoide gamma 0.7 (3.000000):  accuracy: 0.243963 (0.006889),  f1: 0.098046, recall: 0.250000, roc: 0.568305 tiempo 26.559370
+SVM sigmoide gamma 0.7 (4.000000):  accuracy: 0.238311 (0.004602),  f1: 0.096218, recall: 0.250000, roc: 0.558432 tiempo 33.546131
+SVM sigmoide gamma 0.7 (5.000000):  accuracy: 0.242764 (0.003719),  f1: 0.097667, recall: 0.250000, roc: 0.550529 tiempo 38.697071
+SVM sigmoide gamma 0.7 (6.000000):  accuracy: 0.239339 (0.005243),  f1: 0.096552, recall: 0.250000, roc: 0.565188 tiempo 41.019744
+SVM sigmoide gamma 0.7 (10.000000):  accuracy: 0.245334 (0.011699),  f1: 0.098466, recall: 0.250000, roc: 0.566959 tiempo 47.369840
+SVM polinomi gamma 0.9 (2.000000):  accuracy: 0.894160 (0.003083),  f1: 0.893712, recall: 0.894517, roc: 0.983992 tiempo 29.468835
+SVM polinomi gamma 0.9 (3.000000):  accuracy: 0.908375 (0.001938),  f1: 0.908003, recall: 0.908537, roc: 0.987520 tiempo 49.416374
+SVM polinomi gamma 0.9 (4.000000):  accuracy: 0.913255 (0.003172),  f1: 0.912991, recall: 0.913518, roc: 0.988575 tiempo 57.082521
+SVM polinomi gamma 0.9 (5.000000):  accuracy: 0.917281 (0.004946),  f1: 0.917058, recall: 0.917616, roc: 0.989291 tiempo 66.114862
+SVM polinomi gamma 0.9 (6.000000):  accuracy: 0.920020 (0.005583),  f1: 0.919824, recall: 0.920368, roc: 0.989928 tiempo 69.864293
+SVM polinomi gamma 0.9 (10.000000):  accuracy: 0.922333 (0.006079),  f1: 0.922168, recall: 0.922634, roc: 0.989943 tiempo 78.509772
+SVM polinomi gamma 0.7 (2.000000):  accuracy: 0.889622 (0.001798),  f1: 0.889164, recall: 0.890046, roc: 0.984860 tiempo 21.799893
+SVM polinomi gamma 0.7 (3.000000):  accuracy: 0.903836 (0.004311),  f1: 0.903489, recall: 0.904141, roc: 0.988094 tiempo 34.254242
+SVM polinomi gamma 0.7 (4.000000):  accuracy: 0.907176 (0.003444),  f1: 0.906972, recall: 0.907674, roc: 0.988839 tiempo 43.117109
+SVM polinomi gamma 0.7 (5.000000):  accuracy: 0.910002 (0.002176),  f1: 0.909741, recall: 0.910277, roc: 0.989542 tiempo 47.305674
+SVM polinomi gamma 0.7 (6.000000):  accuracy: 0.909230 (0.007356),  f1: 0.909013, recall: 0.909643, roc: 0.989625 tiempo 49.882473
+SVM polinomi gamma 0.7 (10.000000):  accuracy: 0.912056 (0.010189),  f1: 0.911779, recall: 0.912379, roc: 0.990408 tiempo 55.360835
+SVM linear gamma 0.9 (2.000000):  accuracy: 0.323343 (0.002740),  f1: 0.326468, recall: 0.323729, roc: 0.538912 tiempo 7.327644
+SVM linear gamma 0.9 (3.000000):  accuracy: 0.326340 (0.004731),  f1: 0.327580, recall: 0.327662, roc: 0.542117 tiempo 13.406524
+SVM linear gamma 0.9 (4.000000):  accuracy: 0.330020 (0.012992),  f1: 0.330885, recall: 0.331392, roc: 0.547544 tiempo 16.697875
+SVM linear gamma 0.9 (5.000000):  accuracy: 0.323000 (0.009565),  f1: 0.325564, recall: 0.324916, roc: 0.545427 tiempo 18.331371
+SVM linear gamma 0.9 (6.000000):  accuracy: 0.323345 (0.011418),  f1: 0.326469, recall: 0.324647, roc: 0.544512 tiempo 19.949933
+SVM linear gamma 0.9 (10.000000):  accuracy: 0.321289 (0.012166),  f1: 0.326562, recall: 0.322482, roc: 0.548084 tiempo 24.417258
+SVM linear gamma 0.7 (2.000000):  accuracy: 0.320432 (0.002569),  f1: 0.319628, recall: 0.322151, roc: 0.539008 tiempo 7.575917
+SVM linear gamma 0.7 (3.000000):  accuracy: 0.335073 (0.010139),  f1: 0.335675, recall: 0.336420, roc: 0.549045 tiempo 12.668448
+SVM linear gamma 0.7 (4.000000):  accuracy: 0.327368 (0.009124),  f1: 0.330479, recall: 0.328243, roc: 0.546502 tiempo 16.128871
+SVM linear gamma 0.7 (5.000000):  accuracy: 0.321288 (0.009850),  f1: 0.324073, recall: 0.323332, roc: 0.545129 tiempo 18.314423
+SVM linear gamma 0.7 (6.000000):  accuracy: 0.327538 (0.011084),  f1: 0.332157, recall: 0.329281, roc: 0.545910 tiempo 20.018795
+SVM linear gamma 0.7 (10.000000):  accuracy: 0.323258 (0.012597),  f1: 0.327937, recall: 0.326656, roc: 0.546399 tiempo 24.362318
+Logistic Regression (2.000000):  accuracy: 0.339099 (0.017126),  f1: 0.338915, recall: 0.340965, roc: 0.540677 tiempo 1.583598
+Logistic Regression (3.000000):  accuracy: 0.346378 (0.003734),  f1: 0.349064, recall: 0.346653, roc: 0.548888 tiempo 2.248230
+Logistic Regression (4.000000):  accuracy: 0.344922 (0.004516),  f1: 0.347478, recall: 0.345698, roc: 0.549765 tiempo 2.469022
+Logistic Regression (5.000000):  accuracy: 0.347834 (0.010328),  f1: 0.350605, recall: 0.348549, roc: 0.552483 tiempo 2.865765
+Logistic Regression (6.000000):  accuracy: 0.345520 (0.010645),  f1: 0.348176, recall: 0.346437, roc: 0.546157 tiempo 2.845808
+Logistic Regression (10.000000):  accuracy: 0.345177 (0.013072),  f1: 0.347963, recall: 0.345686, roc: 0.547031 tiempo 3.231332
+Guassian Naive Bayes (2.000000):  accuracy: 0.885169 (0.002826),  f1: 0.884358, recall: 0.885278, roc: 0.977899 tiempo 0.015680
+Guassian Naive Bayes (3.000000):  accuracy: 0.884056 (0.004519),  f1: 0.883129, recall: 0.884125, roc: 0.977763 tiempo 0.013055
+Guassian Naive Bayes (4.000000):  accuracy: 0.884397 (0.004187),  f1: 0.883485, recall: 0.884447, roc: 0.977797 tiempo 0.012967
+Guassian Naive Bayes (5.000000):  accuracy: 0.884741 (0.005324),  f1: 0.883805, recall: 0.884841, roc: 0.977820 tiempo 0.013004
+Guassian Naive Bayes (6.000000):  accuracy: 0.883970 (0.005266),  f1: 0.882988, recall: 0.883994, roc: 0.977816 tiempo 0.012689
+Guassian Naive Bayes (10.000000):  accuracy: 0.884484 (0.007537),  f1: 0.883373, recall: 0.884478, roc: 0.977780 tiempo 0.013022
+Linear Discriminant Analysis (2.000000):  accuracy: 0.349632 (0.001627),  f1: 0.354666, recall: 0.349892, roc: 0.552529 tiempo 0.057060
+Linear Discriminant Analysis (3.000000):  accuracy: 0.343723 (0.004534),  f1: 0.348952, recall: 0.344372, roc: 0.545230 tiempo 0.123406
+Linear Discriminant Analysis (4.000000):  accuracy: 0.352458 (0.007253),  f1: 0.357916, recall: 0.353091, roc: 0.549685 tiempo 0.142241
+Linear Discriminant Analysis (5.000000):  accuracy: 0.346977 (0.006843),  f1: 0.352132, recall: 0.347356, roc: 0.546782 tiempo 0.141404
+Linear Discriminant Analysis (6.000000):  accuracy: 0.344493 (0.005469),  f1: 0.350439, recall: 0.345860, roc: 0.548556 tiempo 0.144664
+Linear Discriminant Analysis (10.000000):  accuracy: 0.341067 (0.014682),  f1: 0.347062, recall: 0.341717, roc: 0.548444 tiempo 0.151041
+Decision Tree (2.000000):  accuracy: 0.763658 (0.001884),  f1: 0.764315, recall: 0.763864, roc: 0.842534 tiempo 0.341904
+Decision Tree (3.000000):  accuracy: 0.769653 (0.010658),  f1: 0.770138, recall: 0.769737, roc: 0.846473 tiempo 0.368156
+Decision Tree (4.000000):  accuracy: 0.775645 (0.010852),  f1: 0.776188, recall: 0.775923, roc: 0.850569 tiempo 0.414856
+Decision Tree (5.000000):  accuracy: 0.781213 (0.006147),  f1: 0.782089, recall: 0.781590, roc: 0.854318 tiempo 0.450066
+Decision Tree (6.000000):  accuracy: 0.778987 (0.011326),  f1: 0.779233, recall: 0.779025, roc: 0.852674 tiempo 0.461008
+Decision Tree (10.000000):  accuracy: 0.787893 (0.006656),  f1: 0.788465, recall: 0.788214, roc: 0.858743 tiempo 0.518226
+K Nearest Neigbors (2.000000):  accuracy: 0.645744 (0.000942),  f1: 0.614581, recall: 0.647141, roc: 0.861028 tiempo 0.005263
+K Nearest Neigbors (3.000000):  accuracy: 0.660644 (0.005960),  f1: 0.626775, recall: 0.662111, roc: 0.866031 tiempo 0.006226
+K Nearest Neigbors (4.000000):  accuracy: 0.664925 (0.008081),  f1: 0.631373, recall: 0.666384, roc: 0.869710 tiempo 0.006752
+K Nearest Neigbors (5.000000):  accuracy: 0.662187 (0.013831),  f1: 0.626752, recall: 0.663741, roc: 0.868125 tiempo 0.007434
+K Nearest Neigbors (6.000000):  accuracy: 0.670663 (0.010804),  f1: 0.635766, recall: 0.672178, roc: 0.867733 tiempo 0.007477
+K Nearest Neigbors (10.000000):  accuracy: 0.671261 (0.012606),  f1: 0.636001, recall: 0.672889, roc: 0.871070 tiempo 0.008373
+Extra Trees (2.000000):  accuracy: 0.939202 (0.000685),  f1: 0.938922, recall: 0.939305, roc: 0.991951 tiempo 0.829603
+Extra Trees (3.000000):  accuracy: 0.940658 (0.001376),  f1: 0.940340, recall: 0.940702, roc: 0.992637 tiempo 1.073699
+Extra Trees (4.000000):  accuracy: 0.939972 (0.002666),  f1: 0.939691, recall: 0.940040, roc: 0.992474 tiempo 1.219400
+Extra Trees (5.000000):  accuracy: 0.941342 (0.005439),  f1: 0.941093, recall: 0.941380, roc: 0.992638 tiempo 1.287524
+Extra Trees (6.000000):  accuracy: 0.942284 (0.005728),  f1: 0.942037, recall: 0.942457, roc: 0.992936 tiempo 1.334993
+Extra Trees (10.000000):  accuracy: 0.942628 (0.005026),  f1: 0.942448, recall: 0.942869, roc: 0.993144 tiempo 1.446142
+Random Forest (2.000000):  accuracy: 0.912399 (0.002141),  f1: 0.912137, recall: 0.912357, roc: 0.987851 tiempo 1.506180
+Random Forest (3.000000):  accuracy: 0.915311 (0.003979),  f1: 0.915033, recall: 0.915310, roc: 0.988309 tiempo 1.314438
+Random Forest (4.000000):  accuracy: 0.920191 (0.006438),  f1: 0.920006, recall: 0.920238, roc: 0.988933 tiempo 1.540341
+Random Forest (5.000000):  accuracy: 0.917709 (0.003412),  f1: 0.917430, recall: 0.917648, roc: 0.988931 tiempo 1.619253
+Random Forest (6.000000):  accuracy: 0.919850 (0.008637),  f1: 0.919503, recall: 0.919884, roc: 0.989013 tiempo 1.719924
+Random Forest (10.000000):  accuracy: 0.920535 (0.006528),  f1: 0.920134, recall: 0.920541, roc: 0.989419 tiempo 1.922446
+HistGradientBoosting (2.000000):  accuracy: 0.955643 (0.003254),  f1: 0.955635, recall: 0.955703, roc: 0.995949 tiempo 2.264065
+HistGradientBoosting (3.000000):  accuracy: 0.960010 (0.005056),  f1: 0.959994, recall: 0.960013, roc: 0.996709 tiempo 2.494845
+HistGradientBoosting (4.000000):  accuracy: 0.961380 (0.004886),  f1: 0.961364, recall: 0.961407, roc: 0.996720 tiempo 2.580821
+HistGradientBoosting (5.000000):  accuracy: 0.962750 (0.003482),  f1: 0.962797, recall: 0.962806, roc: 0.996831 tiempo 2.623021
+HistGradientBoosting (6.000000):  accuracy: 0.963179 (0.004342),  f1: 0.963169, recall: 0.963230, roc: 0.996915 tiempo 2.654746
+HistGradientBoosting (10.000000):  accuracy: 0.961980 (0.003382),  f1: 0.961891, recall: 0.961987, roc: 0.996782 tiempo 2.767428
+ADABoosting (2.000000):  accuracy: 0.843466 (0.005994),  f1: 0.844844, recall: 0.843535, roc: 0.836645 tiempo 2.119405
+ADABoosting (3.000000):  accuracy: 0.856740 (0.005716),  f1: 0.857410, recall: 0.856921, roc: 0.842167 tiempo 2.749572
+ADABoosting (4.000000):  accuracy: 0.862304 (0.007820),  f1: 0.862658, recall: 0.862371, roc: 0.845382 tiempo 3.093115
+ADABoosting (5.000000):  accuracy: 0.866246 (0.013626),  f1: 0.866488, recall: 0.866742, roc: 0.847024 tiempo 3.310310
+ADABoosting (6.000000):  accuracy: 0.867359 (0.007959),  f1: 0.867808, recall: 0.867364, roc: 0.851359 tiempo 3.412540
+ADABoosting (10.000000):  accuracy: 0.875149 (0.009993),  f1: 0.875251, recall: 0.875214, roc: 0.857691 tiempo 3.671436
+Bagging Classifier (2.000000):  accuracy: 0.886196 (0.001456),  f1: 0.885407, recall: 0.886496, roc: 0.977633 tiempo 0.063722
+Bagging Classifier (3.000000):  accuracy: 0.884998 (0.003725),  f1: 0.884130, recall: 0.885174, roc: 0.976988 tiempo 0.078203
+Bagging Classifier (4.000000):  accuracy: 0.886624 (0.001798),  f1: 0.885829, recall: 0.886739, roc: 0.977373 tiempo 0.085241
+Bagging Classifier (5.000000):  accuracy: 0.884313 (0.004396),  f1: 0.883324, recall: 0.884410, roc: 0.977057 tiempo 0.090859
+Bagging Classifier (6.000000):  accuracy: 0.886881 (0.003119),  f1: 0.885997, recall: 0.886962, roc: 0.977714 tiempo 0.092911
+Bagging Classifier (10.000000):  accuracy: 0.884054 (0.009841),  f1: 0.883074, recall: 0.884225, roc: 0.977215 tiempo 0.101174
+GradientBoostingClassifier (2.000000):  accuracy: 0.949306 (0.001028),  f1: 0.949311, recall: 0.949409, roc: 0.994784 tiempo 21.867443
+GradientBoostingClassifier (3.000000):  accuracy: 0.951190 (0.001279),  f1: 0.951237, recall: 0.951303, roc: 0.995152 tiempo 28.800602
+GradientBoostingClassifier (4.000000):  accuracy: 0.950762 (0.001645),  f1: 0.950712, recall: 0.950847, roc: 0.995261 tiempo 32.247036
+GradientBoostingClassifier (5.000000):  accuracy: 0.951276 (0.003195),  f1: 0.951297, recall: 0.951345, roc: 0.995338 tiempo 34.362398
+GradientBoostingClassifier (6.000000):  accuracy: 0.952561 (0.003709),  f1: 0.952558, recall: 0.952631, roc: 0.995300 tiempo 36.293592
+GradientBoostingClassifier (10.000000):  accuracy: 0.953332 (0.006161),  f1: 0.953411, recall: 0.953614, roc: 0.995570 tiempo 38.370672
+Red Neuronal MLPC (2.000000):  accuracy: 0.418137 (0.168779),  f1: 0.323864, recall: 0.419722, roc: 0.669357 tiempo 9.466910
+Red Neuronal MLPC (3.000000):  accuracy: 0.501091 (0.184230),  f1: 0.441484, recall: 0.504934, roc: 0.739779 tiempo 73.565872
+Red Neuronal MLPC (4.000000):  accuracy: 0.513679 (0.181694),  f1: 0.466641, recall: 0.513112, roc: 0.740435 tiempo 80.638793
+Red Neuronal MLPC (5.000000):  accuracy: 0.512663 (0.222547),  f1: 0.450733, recall: 0.517586, roc: 0.736534 tiempo 75.271612
+Red Neuronal MLPC (6.000000):  accuracy: 0.512655 (0.193780),  f1: 0.455249, recall: 0.514618, roc: 0.743138 tiempo 70.429025
+Red Neuronal MLPC (10.000000):  accuracy: 0.558242 (0.154915),  f1: 0.513460, recall: 0.557942, roc: 0.789467 tiempo 71.675886
+Optimized Random Forest 1 (2.000000):  accuracy: 0.928584 (0.002055),  f1: 0.928347, recall: 0.928649, roc: 0.991016 tiempo 4.582433
+Optimized Random Forest 1 (3.000000):  accuracy: 0.931323 (0.005064),  f1: 0.931039, recall: 0.931458, roc: 0.991375 tiempo 5.128340
+Optimized Random Forest 1 (4.000000):  accuracy: 0.931409 (0.004209),  f1: 0.931157, recall: 0.931436, roc: 0.991670 tiempo 5.890682
+Optimized Random Forest 1 (5.000000):  accuracy: 0.931067 (0.004725),  f1: 0.930708, recall: 0.931074, roc: 0.991898 tiempo 6.393518
+Optimized Random Forest 1 (6.000000):  accuracy: 0.932781 (0.007181),  f1: 0.932602, recall: 0.932886, roc: 0.991979 tiempo 6.638652
+Optimized Random Forest 1 (10.000000):  accuracy: 0.933809 (0.007874),  f1: 0.933577, recall: 0.933943, roc: 0.992172 tiempo 7.181002
+Optimized Random Forest 2 (2.000000):  accuracy: 0.924902 (0.002483),  f1: 0.924597, recall: 0.924946, roc: 0.990509 tiempo 2.206916
+Optimized Random Forest 2 (3.000000):  accuracy: 0.929012 (0.002073),  f1: 0.928758, recall: 0.929287, roc: 0.991395 tiempo 3.003052
+Optimized Random Forest 2 (4.000000):  accuracy: 0.930724 (0.002452),  f1: 0.930484, recall: 0.930797, roc: 0.991531 tiempo 3.370245
+Optimized Random Forest 2 (5.000000):  accuracy: 0.931924 (0.002868),  f1: 0.931603, recall: 0.931899, roc: 0.991663 tiempo 3.742659
+Optimized Random Forest 2 (6.000000):  accuracy: 0.931153 (0.008551),  f1: 0.930847, recall: 0.931232, roc: 0.991769 tiempo 3.949915
+Optimized Random Forest 2 (10.000000):  accuracy: 0.931667 (0.004844),  f1: 0.931397, recall: 0.931649, roc: 0.991620 tiempo 4.259888
+Optimized Hist Gradient Boosting (2.000000):  accuracy: 0.960610 (0.002055),  f1: 0.960580, recall: 0.960661, roc: 0.996788 tiempo 2.293484
+Optimized Hist Gradient Boosting (3.000000):  accuracy: 0.963949 (0.001679),  f1: 0.963931, recall: 0.963954, roc: 0.997169 tiempo 2.869084
+Optimized Hist Gradient Boosting (4.000000):  accuracy: 0.965148 (0.002908),  f1: 0.965174, recall: 0.965322, roc: 0.997226 tiempo 3.113687
+Optimized Hist Gradient Boosting (5.000000):  accuracy: 0.965149 (0.002919),  f1: 0.965137, recall: 0.965252, roc: 0.997266 tiempo 3.245023
+Optimized Hist Gradient Boosting (6.000000):  accuracy: 0.965920 (0.005434),  f1: 0.965942, recall: 0.966006, roc: 0.997287 tiempo 3.328895
+Optimized Hist Gradient Boosting (10.000000):  accuracy: 0.961123 (0.002432),  f1: 0.961152, recall: 0.961410, roc: 0.996867 tiempo 1.171311
+Optimized ExtraTrees (2.000000):  accuracy: 0.942713 (0.003168),  f1: 0.942441, recall: 0.942807, roc: 0.993148 tiempo 1.454101
+Optimized ExtraTrees (3.000000):  accuracy: 0.946652 (0.001514),  f1: 0.946459, recall: 0.946782, roc: 0.993645 tiempo 1.782906
+Optimized ExtraTrees (4.000000):  accuracy: 0.948792 (0.003763),  f1: 0.948660, recall: 0.948855, roc: 0.993822 tiempo 1.707513
+Optimized ExtraTrees (5.000000):  accuracy: 0.947251 (0.003297),  f1: 0.947111, recall: 0.947371, roc: 0.993821 tiempo 1.804158
+Optimized ExtraTrees (6.000000):  accuracy: 0.948022 (0.004283),  f1: 0.947792, recall: 0.948039, roc: 0.993981 tiempo 2.048845
+Optimized ExtraTrees (10.000000):  accuracy: 0.947166 (0.003592),  f1: 0.946764, recall: 0.947129, roc: 0.993881 tiempo 2.303823
+Optimized Gradient Boosting (2.000000):  accuracy: 0.949906 (0.000257),  f1: 0.949950, recall: 0.949988, roc: 0.995153 tiempo 28.922791
+Optimized Gradient Boosting (3.000000):  accuracy: 0.955815 (0.003788),  f1: 0.955820, recall: 0.955830, roc: 0.995827 tiempo 38.266013
+Optimized Gradient Boosting (4.000000):  accuracy: 0.954701 (0.002232),  f1: 0.954712, recall: 0.954788, roc: 0.995849 tiempo 42.923312
+Optimized Gradient Boosting (5.000000):  accuracy: 0.954273 (0.003996),  f1: 0.954253, recall: 0.954288, roc: 0.995886 tiempo 46.901881
+Optimized Gradient Boosting (6.000000):  accuracy: 0.955558 (0.003414),  f1: 0.955561, recall: 0.955633, roc: 0.995980 tiempo 50.800070
+Optimized Gradient Boosting (10.000000):  accuracy: 0.956414 (0.005846),  f1: 0.956392, recall: 0.956521, roc: 0.996053 tiempo 55.208113
+
+
+
+
+SVM polinomi gamma 0.9 PCA amb 3 components (2.000000):  accuracy: 0.266827 (0.017811),  f1: 0.162495, recall: 0.273584, roc: 0.569048 tiempo 4.733169
+SVM polinomi gamma 0.9 PCA amb 3 components (3.000000):  accuracy: 0.277016 (0.002738),  f1: 0.173710, recall: 0.280847, roc: 0.555114 tiempo 9.344549
+SVM polinomi gamma 0.9 PCA amb 3 components (4.000000):  accuracy: 0.275217 (0.007120),  f1: 0.176251, recall: 0.277724, roc: 0.559164 tiempo 12.441803
+SVM polinomi gamma 0.9 PCA amb 3 components (5.000000):  accuracy: 0.277103 (0.009569),  f1: 0.188108, recall: 0.281751, roc: 0.560026 tiempo 12.992500
+SVM polinomi gamma 0.9 PCA amb 3 components (6.000000):  accuracy: 0.279842 (0.010581),  f1: 0.197285, recall: 0.282339, roc: 0.556910 tiempo 13.949179
+SVM polinomi gamma 0.9 PCA amb 3 components (10.000000):  accuracy: 0.268883 (0.008003),  f1: 0.178304, recall: 0.276402, roc: 0.562170 tiempo 17.806516
+Guassian Naive Bayes PCA amb 3 components (2.000000):  accuracy: 0.344836 (0.005737),  f1: 0.316556, recall: 0.347147, roc: 0.619794 tiempo 0.002058
+Guassian Naive Bayes PCA amb 3 components (3.000000):  accuracy: 0.348433 (0.006924),  f1: 0.321338, recall: 0.349504, roc: 0.619774 tiempo 0.002307
+Guassian Naive Bayes PCA amb 3 components (4.000000):  accuracy: 0.349717 (0.009924),  f1: 0.323115, recall: 0.350978, roc: 0.619917 tiempo 0.002413
+Guassian Naive Bayes PCA amb 3 components (5.000000):  accuracy: 0.349974 (0.006219),  f1: 0.322799, recall: 0.351188, roc: 0.620324 tiempo 0.002531
+Guassian Naive Bayes PCA amb 3 components (6.000000):  accuracy: 0.352370 (0.008491),  f1: 0.325550, recall: 0.353552, roc: 0.620322 tiempo 0.002610
+Guassian Naive Bayes PCA amb 3 components (10.000000):  accuracy: 0.350570 (0.015783),  f1: 0.323881, recall: 0.351587, roc: 0.620235 tiempo 0.002924
+Extra Trees PCA amb 3 components (2.000000):  accuracy: 0.321459 (0.000856),  f1: 0.320567, recall: 0.321761, roc: 0.583365 tiempo 0.336969
+Extra Trees PCA amb 3 components (3.000000):  accuracy: 0.314951 (0.005183),  f1: 0.313991, recall: 0.315925, roc: 0.582126 tiempo 0.418815
+Extra Trees PCA amb 3 components (4.000000):  accuracy: 0.323343 (0.008609),  f1: 0.322633, recall: 0.323889, roc: 0.588934 tiempo 0.451365
+Extra Trees PCA amb 3 components (5.000000):  accuracy: 0.323942 (0.007713),  f1: 0.323024, recall: 0.324063, roc: 0.590313 tiempo 0.491066
+Extra Trees PCA amb 3 components (6.000000):  accuracy: 0.323001 (0.007546),  f1: 0.322046, recall: 0.323450, roc: 0.589437 tiempo 0.503085
+Extra Trees PCA amb 3 components (10.000000):  accuracy: 0.319317 (0.014323),  f1: 0.318331, recall: 0.319792, roc: 0.585322 tiempo 0.560130
+Random Forest PCA amb 3 components (2.000000):  accuracy: 0.325056 (0.000514),  f1: 0.324660, recall: 0.325354, roc: 0.590437 tiempo 0.896002
+Random Forest PCA amb 3 components (3.000000):  accuracy: 0.325312 (0.003380),  f1: 0.323998, recall: 0.325829, roc: 0.587665 tiempo 0.612698
+Random Forest PCA amb 3 components (4.000000):  accuracy: 0.326340 (0.005983),  f1: 0.325310, recall: 0.326424, roc: 0.589863 tiempo 0.695243
+Random Forest PCA amb 3 components (5.000000):  accuracy: 0.325141 (0.004072),  f1: 0.324362, recall: 0.325454, roc: 0.586864 tiempo 0.727767
+Random Forest PCA amb 3 components (6.000000):  accuracy: 0.321801 (0.004112),  f1: 0.321087, recall: 0.321956, roc: 0.587617 tiempo 0.757956
+Random Forest PCA amb 3 components (10.000000):  accuracy: 0.325484 (0.008552),  f1: 0.324546, recall: 0.325861, roc: 0.591919 tiempo 0.817569
+HistGradientBoosting PCA amb 3 components (2.000000):  accuracy: 0.327710 (0.001113),  f1: 0.323982, recall: 0.328164, roc: 0.589810 tiempo 1.167044
+HistGradientBoosting PCA amb 3 components (3.000000):  accuracy: 0.333190 (0.002506),  f1: 0.328540, recall: 0.333746, roc: 0.593589 tiempo 1.168101
+HistGradientBoosting PCA amb 3 components (4.000000):  accuracy: 0.332933 (0.007639),  f1: 0.329148, recall: 0.333364, roc: 0.594832 tiempo 1.177544
+HistGradientBoosting PCA amb 3 components (5.000000):  accuracy: 0.335760 (0.005094),  f1: 0.330808, recall: 0.336364, roc: 0.599978 tiempo 1.176105
+HistGradientBoosting PCA amb 3 components (6.000000):  accuracy: 0.337557 (0.004135),  f1: 0.332068, recall: 0.338396, roc: 0.597760 tiempo 1.185864
+HistGradientBoosting PCA amb 3 components (10.000000):  accuracy: 0.351430 (0.008936),  f1: 0.342185, recall: 0.352049, roc: 0.612929 tiempo 0.393469
+GradientBoostingClassifier PCA amb 3 components (2.000000):  accuracy: 0.342011 (0.001541),  f1: 0.334023, recall: 0.342912, roc: 0.608509 tiempo 3.430974
+GradientBoostingClassifier PCA amb 3 components (3.000000):  accuracy: 0.348946 (0.009675),  f1: 0.340876, recall: 0.349755, roc: 0.610661 tiempo 4.522132
+GradientBoostingClassifier PCA amb 3 components (4.000000):  accuracy: 0.349032 (0.009894),  f1: 0.339449, recall: 0.350162, roc: 0.612698 tiempo 5.093268
+GradientBoostingClassifier PCA amb 3 components (5.000000):  accuracy: 0.351087 (0.006339),  f1: 0.342774, recall: 0.351963, roc: 0.615540 tiempo 5.423003
+GradientBoostingClassifier PCA amb 3 components (6.000000):  accuracy: 0.353570 (0.003983),  f1: 0.345593, recall: 0.354558, roc: 0.618729 tiempo 5.662057
+GradientBoostingClassifier PCA amb 3 components (10.000000):  accuracy: 0.353488 (0.014868),  f1: 0.344754, recall: 0.354244, roc: 0.615970 tiempo 6.142285
+SVM polinomi gamma 0.9 dades PCA amb mle (2.000000):  accuracy: 0.899640 (0.000685),  f1: 0.899398, recall: 0.899878, roc: 0.984286 tiempo 28.552689
+SVM polinomi gamma 0.9 dades PCA amb mle (3.000000):  accuracy: 0.905806 (0.000805),  f1: 0.905608, recall: 0.906092, roc: 0.987061 tiempo 44.256526
+SVM polinomi gamma 0.9 dades PCA amb mle (4.000000):  accuracy: 0.911800 (0.005865),  f1: 0.911647, recall: 0.912059, roc: 0.988056 tiempo 51.857756
+SVM polinomi gamma 0.9 dades PCA amb mle (5.000000):  accuracy: 0.915482 (0.003140),  f1: 0.915317, recall: 0.915693, roc: 0.989159 tiempo 57.629356
+SVM polinomi gamma 0.9 dades PCA amb mle (6.000000):  accuracy: 0.916595 (0.004792),  f1: 0.916489, recall: 0.916887, roc: 0.989390 tiempo 61.240561
+SVM polinomi gamma 0.9 dades PCA amb mle (10.000000):  accuracy: 0.922247 (0.006906),  f1: 0.922134, recall: 0.922560, roc: 0.990316 tiempo 67.870992
+Guassian Naive Bayes dades PCA amb mle (2.000000):  accuracy: 0.660644 (0.011903),  f1: 0.652665, recall: 0.660791, roc: 0.883420 tiempo 0.006580
+Guassian Naive Bayes dades PCA amb mle (3.000000):  accuracy: 0.657132 (0.010276),  f1: 0.649060, recall: 0.657105, roc: 0.882913 tiempo 0.008304
+Guassian Naive Bayes dades PCA amb mle (4.000000):  accuracy: 0.657648 (0.007511),  f1: 0.649815, recall: 0.657912, roc: 0.883304 tiempo 0.009306
+Guassian Naive Bayes dades PCA amb mle (5.000000):  accuracy: 0.659016 (0.005776),  f1: 0.650805, recall: 0.658920, roc: 0.883283 tiempo 0.010763
+Guassian Naive Bayes dades PCA amb mle (6.000000):  accuracy: 0.657474 (0.010745),  f1: 0.649311, recall: 0.657644, roc: 0.883002 tiempo 0.010552
+Guassian Naive Bayes dades PCA amb mle (10.000000):  accuracy: 0.660045 (0.014145),  f1: 0.651504, recall: 0.659986, roc: 0.883262 tiempo 0.010941
+Extra Trees dades PCA amb mle (2.000000):  accuracy: 0.823514 (0.000599),  f1: 0.821291, recall: 0.823707, roc: 0.948382 tiempo 0.791313
+Extra Trees dades PCA amb mle (3.000000):  accuracy: 0.827967 (0.005270),  f1: 0.825854, recall: 0.828007, roc: 0.952170 tiempo 1.093722
+Extra Trees dades PCA amb mle (4.000000):  accuracy: 0.839784 (0.007966),  f1: 0.837658, recall: 0.839707, roc: 0.954736 tiempo 1.229194
+Extra Trees dades PCA amb mle (5.000000):  accuracy: 0.837986 (0.009037),  f1: 0.835882, recall: 0.838180, roc: 0.956261 tiempo 1.319265
+Extra Trees dades PCA amb mle (6.000000):  accuracy: 0.838156 (0.008794),  f1: 0.835965, recall: 0.837912, roc: 0.955344 tiempo 1.386380
+Extra Trees dades PCA amb mle (10.000000):  accuracy: 0.841670 (0.010357),  f1: 0.839786, recall: 0.841861, roc: 0.957010 tiempo 1.488728
+Random Forest dades PCA amb mle (2.000000):  accuracy: 0.815379 (0.002398),  f1: 0.813731, recall: 0.815518, roc: 0.947698 tiempo 2.296790
+Random Forest dades PCA amb mle (3.000000):  accuracy: 0.820518 (0.005144),  f1: 0.818859, recall: 0.820471, roc: 0.951244 tiempo 2.490252
+Random Forest dades PCA amb mle (4.000000):  accuracy: 0.825741 (0.004653),  f1: 0.824197, recall: 0.825706, roc: 0.952952 tiempo 2.923349
+Random Forest dades PCA amb mle (5.000000):  accuracy: 0.823857 (0.002748),  f1: 0.822148, recall: 0.824104, roc: 0.953669 tiempo 3.090586
+Random Forest dades PCA amb mle (6.000000):  accuracy: 0.828140 (0.012367),  f1: 0.826300, recall: 0.828200, roc: 0.954558 tiempo 3.247407
+Random Forest dades PCA amb mle (10.000000):  accuracy: 0.828138 (0.007512),  f1: 0.826343, recall: 0.828357, roc: 0.954911 tiempo 3.603658
+HistGradientBoosting dades PCA amb mle (2.000000):  accuracy: 0.907861 (0.000171),  f1: 0.908018, recall: 0.907893, roc: 0.986376 tiempo 2.752450
+HistGradientBoosting dades PCA amb mle (3.000000):  accuracy: 0.910858 (0.003594),  f1: 0.911046, recall: 0.910924, roc: 0.987833 tiempo 2.992165
+HistGradientBoosting dades PCA amb mle (4.000000):  accuracy: 0.915568 (0.004227),  f1: 0.915693, recall: 0.915566, roc: 0.988765 tiempo 3.087583
+HistGradientBoosting dades PCA amb mle (5.000000):  accuracy: 0.920535 (0.005599),  f1: 0.920607, recall: 0.920572, roc: 0.989410 tiempo 3.125339
+HistGradientBoosting dades PCA amb mle (6.000000):  accuracy: 0.917879 (0.007325),  f1: 0.917967, recall: 0.918066, roc: 0.989149 tiempo 3.151961
+HistGradientBoosting dades PCA amb mle (10.000000):  accuracy: 0.914711 (0.006976),  f1: 0.914844, recall: 0.914893, roc: 0.988534 tiempo 3.322743
+GradientBoostingClassifier dades PCA amb mle (2.000000):  accuracy: 0.843295 (0.002055),  f1: 0.843431, recall: 0.843481, roc: 0.968666 tiempo 52.809205
+GradientBoostingClassifier dades PCA amb mle (3.000000):  accuracy: 0.846978 (0.003668),  f1: 0.847053, recall: 0.846926, roc: 0.969454 tiempo 71.845361
+GradientBoostingClassifier dades PCA amb mle (4.000000):  accuracy: 0.852030 (0.005941),  f1: 0.851893, recall: 0.851925, roc: 0.971507 tiempo 81.481368
+GradientBoostingClassifier dades PCA amb mle (5.000000):  accuracy: 0.855884 (0.004235),  f1: 0.855905, recall: 0.855961, roc: 0.971545 tiempo 87.358506
+GradientBoostingClassifier dades PCA amb mle (6.000000):  accuracy: 0.857082 (0.005786),  f1: 0.857022, recall: 0.857143, roc: 0.971555 tiempo 91.218569
+GradientBoostingClassifier dades PCA amb mle (10.000000):  accuracy: 0.851859 (0.009206),  f1: 0.851622, recall: 0.852004, roc: 0.971055 tiempo 99.580996
+SVM polinomi gamma 0.9  dades polinomi 2 (2.000000):  accuracy: 0.886710 (0.004367),  f1: 0.886281, recall: 0.887133, roc: 0.977377 tiempo 63.367879
+SVM polinomi gamma 0.9  dades polinomi 2 (3.000000):  accuracy: 0.900411 (0.001954),  f1: 0.900108, recall: 0.900640, roc: 0.981810 tiempo 102.652081
+SVM polinomi gamma 0.9  dades polinomi 2 (4.000000):  accuracy: 0.902553 (0.007142),  f1: 0.902356, recall: 0.902837, roc: 0.982787 tiempo 123.483071
+SVM polinomi gamma 0.9  dades polinomi 2 (5.000000):  accuracy: 0.908717 (0.005251),  f1: 0.908655, recall: 0.909056, roc: 0.983730 tiempo 140.064768
+SVM polinomi gamma 0.9  dades polinomi 2 (6.000000):  accuracy: 0.908631 (0.004633),  f1: 0.908338, recall: 0.908906, roc: 0.984461 tiempo 158.235230
+SVM polinomi gamma 0.9  dades polinomi 2 (10.000000):  accuracy: 0.913684 (0.004890),  f1: 0.913492, recall: 0.914017, roc: 0.985143 tiempo 169.398172
+Guassian Naive Bayes  dades polinomi 2 (2.000000):  accuracy: 0.796626 (0.006765),  f1: 0.794184, recall: 0.796783, roc: 0.910161 tiempo 0.267557
+Guassian Naive Bayes  dades polinomi 2 (3.000000):  accuracy: 0.795771 (0.006355),  f1: 0.793471, recall: 0.796204, roc: 0.909008 tiempo 0.345612
+Guassian Naive Bayes  dades polinomi 2 (4.000000):  accuracy: 0.794743 (0.008050),  f1: 0.792207, recall: 0.795025, roc: 0.908726 tiempo 0.422253
+Guassian Naive Bayes  dades polinomi 2 (5.000000):  accuracy: 0.792859 (0.014506),  f1: 0.790265, recall: 0.793198, roc: 0.907942 tiempo 0.424019
+Guassian Naive Bayes  dades polinomi 2 (6.000000):  accuracy: 0.793373 (0.011057),  f1: 0.790607, recall: 0.793639, roc: 0.908139 tiempo 0.426783
+Guassian Naive Bayes  dades polinomi 2 (10.000000):  accuracy: 0.792945 (0.009570),  f1: 0.790059, recall: 0.793042, roc: 0.908222 tiempo 0.461423
+Extra Trees  dades polinomi 2 (2.000000):  accuracy: 0.928584 (0.003425),  f1: 0.928202, recall: 0.928655, roc: 0.989699 tiempo 6.336385
+Extra Trees  dades polinomi 2 (3.000000):  accuracy: 0.932438 (0.004044),  f1: 0.932089, recall: 0.932557, roc: 0.990738 tiempo 8.979210
+Extra Trees  dades polinomi 2 (4.000000):  accuracy: 0.933808 (0.004299),  f1: 0.933491, recall: 0.933821, roc: 0.990863 tiempo 10.362907
+Extra Trees  dades polinomi 2 (5.000000):  accuracy: 0.932437 (0.007108),  f1: 0.932156, recall: 0.932485, roc: 0.990733 tiempo 11.090857
+Extra Trees  dades polinomi 2 (6.000000):  accuracy: 0.936375 (0.006733),  f1: 0.936015, recall: 0.936479, roc: 0.991262 tiempo 12.072105
+Extra Trees  dades polinomi 2 (10.000000):  accuracy: 0.936805 (0.008288),  f1: 0.936463, recall: 0.936993, roc: 0.991460 tiempo 16.427321
+Random Forest  dades polinomi 2 (2.000000):  accuracy: 0.921819 (0.000257),  f1: 0.921438, recall: 0.921872, roc: 0.989133 tiempo 10.181663
+Random Forest  dades polinomi 2 (3.000000):  accuracy: 0.927471 (0.002293),  f1: 0.927156, recall: 0.927446, roc: 0.990297 tiempo 13.525758
+Random Forest  dades polinomi 2 (4.000000):  accuracy: 0.926272 (0.001839),  f1: 0.925932, recall: 0.926298, roc: 0.990276 tiempo 15.521462
+Random Forest  dades polinomi 2 (5.000000):  accuracy: 0.929097 (0.004398),  f1: 0.928734, recall: 0.929172, roc: 0.990443 tiempo 270.086841
+Random Forest  dades polinomi 2 (6.000000):  accuracy: 0.928755 (0.007557),  f1: 0.928452, recall: 0.928890, roc: 0.990743 tiempo 17.806048
+Random Forest  dades polinomi 2 (10.000000):  accuracy: 0.928583 (0.006788),  f1: 0.928167, recall: 0.928628, roc: 0.990700 tiempo 19.389714
+HistGradientBoosting  dades polinomi 2 (2.000000):  accuracy: 0.959325 (0.001627),  f1: 0.959315, recall: 0.959402, roc: 0.996554 tiempo 107.496370
+HistGradientBoosting  dades polinomi 2 (3.000000):  accuracy: 0.963521 (0.003577),  f1: 0.963522, recall: 0.963593, roc: 0.996911 tiempo 105.016170
+HistGradientBoosting  dades polinomi 2 (4.000000):  accuracy: 0.963778 (0.003206),  f1: 0.963751, recall: 0.963863, roc: 0.997107 tiempo 104.861763
+HistGradientBoosting  dades polinomi 2 (5.000000):  accuracy: 0.965662 (0.002701),  f1: 0.965646, recall: 0.965695, roc: 0.997325 tiempo 105.412542
+HistGradientBoosting  dades polinomi 2 (6.000000):  accuracy: 0.966176 (0.002557),  f1: 0.966209, recall: 0.966331, roc: 0.997548 tiempo 108.075791
+HistGradientBoosting  dades polinomi 2 (10.000000):  accuracy: 0.964035 (0.004857),  f1: 0.964021, recall: 0.964156, roc: 0.997249 tiempo 91.221336
+GradientBoostingClassifier  dades polinomi 2 (2.000000):  accuracy: 0.941856 (0.001456),  f1: 0.941850, recall: 0.941955, roc: 0.993288 tiempo 405.435188 
+GradientBoostingClassifier  dades polinomi 2 (3.000000):  accuracy: 0.944597 (0.006418),  f1: 0.944516, recall: 0.944657, roc: 0.993797 tiempo 538.643000 
+GradientBoostingClassifier  dades polinomi 2 (4.000000):  accuracy: 0.947080 (0.001659),  f1: 0.947072, recall: 0.947252, roc: 0.993926 tiempo 611.948454
+GradientBoostingClassifier  dades polinomi 2 (5.000000):  accuracy: 0.945197 (0.005530),  f1: 0.945181, recall: 0.945346, roc: 0.993966 tiempo 659.930742
+GradientBoostingClassifier  dades polinomi 2 (6.000000):  accuracy: 0.945453 (0.003632),  f1: 0.945376, recall: 0.945477, roc: 0.993871 tiempo 682.145916
+GradientBoostingClassifier  dades polinomi 2 (10.000000):  accuracy: 0.946394 (0.008606),  f1: 0.946316, recall: 0.946571, roc: 0.994069 tiempo 731.588885
+
+

@@ -1,1 +1,3 @@
 Python package dependencies
+
+Cal instal·lar totes les llibreries necesaries per a que funcioni correctament.
